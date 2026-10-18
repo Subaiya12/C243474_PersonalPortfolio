@@ -1,0 +1,316 @@
+
+<!DOCTYPE html>
+<html >
+<head>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <nav class="navbar">
+        <h2 class="logo">My Portfolio<span>.</span></h2>
+        <div class="nav-links">
+            <button class="nav-link active" data-page="about">About</button>
+            <button class="nav-link" data-page="resume">Resume</button>
+            <button class="nav-link" data-page="portfolio">Projects</button>
+            <button class="nav-link" data-page="contact">Contact</button>
+        </div>
+    </nav>
+    <main class="layout">
+        <div class="sidebar">
+
+            <div class="profile">
+                <img
+                    class="profile-photo"
+                    src="image/Suba.jpg"alt="Profile photo"
+                >
+                <h1>Subaiya Elahi</h1>
+                <p class="job-title">Computer Science Student</p>
+            </div>
+            <hr>
+
+            <div class="contact-info">
+                <h2>Contact Information</h2>
+
+                <p>
+                    <strong>Email</strong>
+                    <a href="mailto:elahisuba@example.com">
+                        elahisuba@example.com
+                    </a>
+                </p>
+
+                <p>
+                    <strong>Location</strong>
+                    Chattogram, Bangladesh
+                </p>
+
+                <p>
+                    <strong>GitHub</strong>
+                    <a href="https://github.com/Subaiya12"
+                       target="_blank" >
+                        Visit GitHub
+                    </a>
+                </p>
+
+                <p>
+                    <strong>LinkedIn</strong>
+                    <a href="https://www.linkedin.com/in/subaiya-binte-elahi-41973827b/"
+                       target="_blank" >
+                        Visit LinkedIn
+                    </a>
+                </p>
+            </div>
+
+        </div>
+
+        <div class="main-content">
+            <section class="page active" id="about">
+
+                <h2 class="section-title">About Me</h2>
+
+                <p>
+                    Hello! I am a Computer Science student who enjoys
+                    learning new technologies and creating useful projects.
+                    I am currently improving my skills in programming,
+                    web development, and problem-solving.
+                </p>
+
+                <p>
+                    My goal is to keep learning, work with others,
+                    and build simple and helpful digital experiences.
+                </p>
+
+                <h3 class="sub-title">What I Do</h3>
+
+                <div class="card-grid">
+
+                    <div class="info-card">
+                        <div class="card-icon">💻</div>
+                        <h3>Web Development</h3>
+                        <p>
+                            Building websites using HTML, CSS,
+                            and JavaScript.
+                        </p>
+                    </div>
+
+                    <div class="info-card">
+                        <div class="card-icon">🧠</div>
+                        <h3>Problem Solving</h3>
+                        <p>
+                            Practicing programming and learning
+                            data structures and algorithms.
+                        </p>
+                    </div>
+
+                    <div class="info-card">
+                        <div class="card-icon">📚</div>
+                        <h3>Always Learning</h3>
+                        <p>
+                            Exploring new tools and improving
+                            my technical knowledge.
+                        </p>
+                    </div>
+
+                    <div class="info-card">
+                        <div class="card-icon">🤝</div>
+                        <h3>Teamwork</h3>
+                        <p>
+                            Working with classmates and sharing
+                            ideas on projects.
+                        </p>
+                    </div>
+
+                </div>
+            </section>
+            
+            <section class="page" id="resume">
+
+                <h2 class="section-title">My Resume</h2>
+
+                <h3 class="sub-title">Education</h3>
+
+                <div class="timeline-item">
+                    <span class="date">2024 – Present</span>
+                    <h3>BSc in Computer Science and Engineering</h3>
+                    <p>International Islamic University Chattogram</p>
+                    <p>
+                        Studying programming, databases,
+                        software development, and computer systems.
+                    </p>
+                </div>
+
+                <div class="timeline-item">
+                    <span class="date">2021-2023</span>
+                    <h3>Higher Secondary Certificate (HSC)</h3>
+                    <p>Mahila College, Chattogram</p>
+                    <p>
+                        Group: Science<br>
+                        Passing Year:2023
+                    </p>
+                </div>
+
+                <h3 class="sub-title">My Skills</h3>
+
+                <div class="skills">
+
+                    <div class="skill">
+                        <div class="skill-label">
+                            <span>HTML</span>
+                            <span>Beginner</span>
+                        </div>
+                        <div class="skill-track">
+                            <div class="skill-fill" style="width: 55%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <div class="skill-label">
+                            <span>CSS</span>
+                            <span>Beginner</span>
+                        </div>
+                        <div class="skill-track">
+                            <div class="skill-fill" style="width: 45%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <div class="skill-label">
+                            <span>JavaScript</span>
+                            <span>Learning</span>
+                        </div>
+                        <div class="skill-track">
+                            <div class="skill-fill" style="width: 30%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <div class="skill-label">
+                            <span>C++</span>
+                            <span>Learning</span>
+                        </div>
+                        <div class="skill-track">
+                            <div class="skill-fill" style="width: 50%"></div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <section class="page" id="portfolio">
+
+     <h2 class="section-title">My Projects</h2>
+
+     <p class="section-intro">
+        Here are some projects I have worked on
+        or am currently developing.
+     </p>
+
+     <div class="project-grid">
+
+        <div class="project-card">
+            <h3>Laboratory Management</h3>
+
+            <p>
+                A laboratory management project
+                developed using Django.
+            </p>
+
+            <a href="https://github.com/Subaiya12/LabManagement"
+               class="project-link">
+                View Project →
+            </a>
+        </div>
+
+        <div class="project-card">
+            <h3>Crime Investigation System</h3>
+
+            <p>
+                A student project for managing complaints
+                and tracking investigations.
+            </p>
+
+            <a href="https://github.com/Subaiya12/Crime-and-Investigation-System" class="project-link">
+                View Project →
+            </a>
+        </div>
+
+        <div class="project-card">
+            <h3>University Management</h3>
+
+            <p>
+               A project for managing all the work for university
+               To manage teacher,student
+            </p>
+
+            <a href="https://subaiya12.github.io/UniversityManagement/" class="project-link">
+                View Project →
+            </a>
+        </div>
+
+     </div>
+
+     </section>
+            <section class="page" id="contact">
+
+                <h2 class="section-title">Contact Me</h2>
+
+                <p class="section-intro">
+                    Have a question or want to work together?
+                    Send me a message.
+                </p>
+
+                <form id="contact-form" class="contact-form">
+
+                    <label for="full-name">Your Name</label>
+                    <input
+                        type="text"
+                        id="full-name"
+                        name="full-name"
+                        placeholder="Enter your name"
+                        required
+                    >
+
+                    <label for="email">Email Address</label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Enter your email"
+                        required
+                    >
+
+                    <label for="message">Message</label>
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="5"
+                        placeholder="Write your message"
+                        required
+                    ></textarea>
+
+                    <button type="submit" class="primary-button">
+                        Prepare Email
+                    </button>
+
+                    <p class="form-note">
+                        This demo opens your email app.
+                        It does not store messages on a server.
+                    </p>
+
+                    <p id="form-status" class="form-status"
+                       aria-live="polite"></p>
+
+                </form>
+            </section>
+
+        </div>
+    </main>
+    <footer>
+        <p>
+            © <span id="year"></span> Subaiya Elahi.
+            Made with HTML, CSS and JavaScript.
+        </p>
+    </footer>
+
+</body>
+</html>
